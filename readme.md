@@ -1,6 +1,6 @@
 # NSE Indian Stock Tracker on Telegram
 
-A telegram bot to track Indian NSE stocks and to notify teh user when the prices reaches the desired level to either buy or sell.
+A telegram bot to track Indian NSE stocks and to notify the user when the prices reaches the desired level to either buy or sell.
 
 Hosted on Heroku using the telepot library and Nsetools API
 > Telegram Username : @IndianStockBot
