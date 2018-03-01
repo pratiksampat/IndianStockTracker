@@ -65,13 +65,13 @@ def handle(msg):
                     if(listParams[3] == '-'):
                         stockList[chat_id][listParams[1]] = - (int(q['lastPrice']) - amt)
                     else:
-                        stockList[chat_id][listParams[1]] = (int(q['lastPrice']) - amt)
+                        stockList[chat_id][listParams[1]] = (int(q['lastPrice']) + amt)
                 except:
                     stockList[chat_id] = {}
                     if(listParams[3] == '-'):
                         stockList[chat_id][listParams[1]] = - (int(q['lastPrice']) - amt)
                     else:
-                        stockList[chat_id][listParams[1]] = (int(q['lastPrice']) - amt)
+                        stockList[chat_id][listParams[1]] = (int(q['lastPrice']) + amt)
                
                 dispString = "Added Stock : " + str(listParams[1]) + "\nTracking Price : "+ str(abs(stockList[chat_id][listParams[1]]))
                 bot.sendMessage(chat_id,dispString)
