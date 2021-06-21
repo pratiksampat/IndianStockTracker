@@ -3,7 +3,7 @@
 A telegram bot to track Indian NSE stocks and to notify the user when the prices reaches the desired level to either buy or sell.
 
 Hosted on Heroku using the telepot library and Nsetools API
-> Telegram Username : @IndianStockBot
+> Telegram Username : @IndianStockBot -- Deprecated. You can self host it if you want
 
 ```haskell
 Usage : List of available commands.
